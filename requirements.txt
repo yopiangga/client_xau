@@ -1,0 +1,4 @@
+# client-bot hanya butuh stdlib untuk socket. Tambahan opsional di bawah.
+certifi>=2024.2          # CA bundle TLS utk notifikasi Telegram (opsional)
+# Khusus Windows (eksekusi MT5); abaikan/komentari di macOS/Linux:
+MetaTrader5>=5.0 ; platform_system == "Windows"
