@@ -123,7 +123,7 @@ def resolve_prices(signal):
         return entry, entry - tp_dist, entry + sl_dist
 
 
-def open_position(signal, lot=None, comment="clientbot"):
+def open_position(signal, lot=None, comment="client"):
     """Buka posisi market sesuai sinyal master.
 
     signal: dict berisi side, tp/sl (absolut) + tp_dist/sl_dist (jarak).
